@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+            body
+            {
+                margin: 0;
+            }
+               h1
+            {
+                background: green;
+                color: white;
+                text-align: center;
+                width: 100%;
+            }
+            input,textArea
+            {
+                width:99%;
+             }
+            label
+            {
+                width: auto;
+                display: block;
+            }
+            header,footer,aside
+            {
+                display: block;
+            }
+            .container
+            {
+                width: 100%;
+                margin: 0 auto;
+            }
+        .headerbar
+        {
+            width: 100%;
+            float: left;    
+        }
+        .headerbar.top
+        {
+            background: green;
+            width: 100%;
+            min-height: 100PX;
+            
+        }
+        .headerbar.bottom
+        {
+            background: green;
+            min-height: 60PX;
+        }
+        .leftbar
+        {
+         padding-left: 10px;
+         padding-right: 10px;
+         width: auto;
+         background: #ccccff;
+         min-height: 800px;
+         float: left;
+        }
+         .rightbar
+        {
+         float: left;
+         margin-left: 0px;
+         width: auto;
+         background: #ccccff;
+         min-height: 800px;
+         text-align: center;
+        }
+        table
+        {
+            width: auto;
+/*            padding-left: 15px;*/
+        }
+       th,td
+       {
+           border: 2px solid black;
+           border-collapse: collapse;
+      
+       }
+       th
+       {
+           background: #ff9999;
+           font-size: 25px;
+       }
+        .c1
+       {
+           font-size: 14px;
+           padding: 5px;
+           border-radius: 2px;
+           background: #ff0033;
+           color: #ffffff;
+           float: right;
+           width: 100px;
+       }
+       
+       #ques_table
+       {
+           float: left;
+           margin-left: 0px;
+       }
+       
+       .col-sm-3
+       {
+           background:#ccccff;
+       }
+       
+       .col-sm-9
+       {
+           background:#ccccff;
+       }
